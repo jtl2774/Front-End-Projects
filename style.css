@@ -4,11 +4,13 @@
     margin: 10px auto;
     padding: 15px;
 }
+
 .top-nav {
     height: 150px;
     background-color: green;
     margin: 10px;
 }
+
 .side-nav {
     height: 300px;
     width: 199px;
