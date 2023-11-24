@@ -1,0 +1,91 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Button style */
+.btn{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: mediumseagreen;
+    color: mediumseagreen;
+    font-weight: bold;
+    width: 150px;    
+}
+
+/* Flexible Columns*/
+.row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.col, .col-2, .col-3{
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+/* Flexible Navbar Example*/
+
+.nav{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.nav-title{
+    color: white;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.nav-links{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 3px 2px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
