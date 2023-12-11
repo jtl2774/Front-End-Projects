@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row{
+    display: flex;
+    
+}
+
+.user-card{
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.card-header{
+    background-color: dodgerblue;
+    margin: 10px;
+    height: 95px;
+}
+
+.user-avatar{
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.card-body{
+    align-items: center;
+    margin: 40px;
+}
+
+.card-body h1, h3, p{
+    margin: 20px 0px;
+
+}
+
+.icon{
+    height: 20px;
+}
